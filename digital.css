@@ -1,0 +1,33 @@
+*{
+    padding: 5px;
+    overflow-x: hidden;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: dashed underline;
+    color: rgb(241, 45, 225);
+    font-weight: bold;
+}
+h2{
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: rgb(97, 97, 238);
+}
+
+.icon-1{
+    font-size: 40px;
+    text-align: center;
+}
+.icon-2{
+    font-size: 45px;
+}
+.card{
+    
+}
+
+.cv,.pets,.news{
+    display: none;
+}
+

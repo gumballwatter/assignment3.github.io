@@ -1,0 +1,51 @@
+@media(max-width:768px){
+    body {
+        overflow-x: hidden;
+    }
+    /* Định dạng tên Nguyễn Bá Hoàng Lân */
+.banner-text-name {
+    top:40%;
+}
+  /* Định dạng chữ "Blockchains Developer" */
+.banner-text {
+    top: 60%;
+}
+.nav-img {
+    display: none;   
+}       
+/* TẠO PHẦN TARGET AND INFO */
+/* Phần mục tiêu và thông tin được chia theo bố cục grid làm 2 cột */
+.bg-grey .container {
+    column-gap: 20px;
+    padding: 30px 10px ;
+    margin-right: 0px;
+    max-width:760px ;
+}
+/* TẠO PHẦN THÔNG TIN NGHỀ NGHIỆP */
+/* Tablet hiển thị 2 cột và 3 dòng */
+#job-info .container {
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 20px;
+    row-gap: 40px;
+    width: 100%;
+    padding: 30px 0px;
+}
+
+/* Định dạng phần ảnh và nội dung trong phần chứng chỉ */
+.cer-img {
+    height: 100px;
+    grid-column: 1/-1;
+    width: fit-content;
+}
+.cer-grid-content {
+    grid-column: 1/-1;
+}
+
+/* Định dạng phần dự án */
+#project .container {
+    max-width:760px;
+    padding: 30px 10px;
+    column-gap: 10px;
+}
+}
